@@ -22,8 +22,20 @@
     "url": "https://github.com/lsm/plugin-jsx/issues"
   },
   "homepage": "https://github.com/lsm/plugin-jsx#readme",
-  "dependencies": {
+  "devDependencies": {
+    "jspm": "0.16.14",
     "babel-core": "6.1.x",
     "babel-preset-react": "6.1.x"
+  },
+  "jspm": {
+    "dependencies": {
+      "babel-core": "npm:babel-core@6.1.x",
+      "babel-preset-react": "npm:babel-preset-react@6.1.x"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.34",
+      "babel-runtime": "npm:babel-runtime@^5.8.34",
+      "core-js": "npm:core-js@^1.2.6"
+    }
   }
 }
