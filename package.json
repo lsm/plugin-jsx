@@ -29,8 +29,8 @@
   },
   "jspm": {
     "dependencies": {
-      "babel-core": "npm:babel-core@6.1.x",
-      "babel-preset-react": "npm:babel-preset-react@6.1.x"
+      "babel-core": "npm:babel-core@^6.1.21",
+      "babel-preset-react": "npm:babel-preset-react@^6.1.18"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.34",
