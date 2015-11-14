@@ -1,0 +1,29 @@
+{
+  "name": "plugin-jsx",
+  "version": "0.0.1",
+  "description": "JSPM plugin for transforming JSX using Babel 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsm/plugin-jsx.git"
+  },
+  "keywords": [
+    "jsx",
+    "jspm",
+    "react",
+    "plugin"
+  ],
+  "author": "lsm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsm/plugin-jsx/issues"
+  },
+  "homepage": "https://github.com/lsm/plugin-jsx#readme",
+  "dependencies": {
+    "babel-core": "6.1.x",
+    "babel-preset-react": "6.1.x"
+  }
+}
